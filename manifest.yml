@@ -1,0 +1,7 @@
+---
+applications:
+- name: carbookWH
+  host: carbookWH
+  buildpack: nodejs_buildpack
+  memory: 128M
+  command: node server
